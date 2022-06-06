@@ -5721,11 +5721,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\admin\\Documents\\GitHub\\GameTests\\GameTests.csproj",
+      "projectUniqueName": "c:\\Users\\admin\\Documents\\GitHub\\GameTests\\GameTests.csproj",
       "projectName": "GameTests",
-      "projectPath": "C:\\Users\\admin\\Documents\\GitHub\\GameTests\\GameTests.csproj",
+      "projectPath": "c:\\Users\\admin\\Documents\\GitHub\\GameTests\\GameTests.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\admin\\Documents\\GitHub\\GameTests\\obj\\",
+      "outputPath": "c:\\Users\\admin\\Documents\\GitHub\\GameTests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
