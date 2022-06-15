@@ -1,3 +1,70 @@
-{
-    "name": "Water"
-}
+[
+    {
+        "name": "Stone",
+        "id": 1,
+        "isTrigger": false,
+        "restitution": 0.5,
+        "temperature": 2500,
+        "humidity": 5000,
+        "transmutions": [
+            {
+                "$type": "Transmution",
+                "targetID": 2,
+                "conditions": [
+                    {
+                        "$type": "ComparingHumidity",
+                        "symbol": "LessThan",
+                        "value": 1500
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "WeatheredStone",
+        "id": 2,
+        "isTrigger": false,
+        "restitution": 0.5,
+        "temperature": 2500,
+        "humidity": 500,
+        "transmutions": [
+            {
+                "$type": "Transmution",
+                "targetID": 1,
+                "conditions": [
+                    {
+                        "$type": "ComparingHumidity",
+                        "symbol": "MoreThan",
+                        "value": 1500
+                    }
+                ]
+            }
+        ],
+        "interactions": [
+            {
+                "$type": "BlockInteraction",
+                "conditions": [
+                    {
+                        "$type": "HasEquipedSpecifiedWeaponType",
+                        "weaponType": "Hammer"
+                    }
+                ],
+                "interactionAction": {
+                    "$type": "DestroyBlock"
+                }
+            },
+            {
+                "$type": "BlockInteraction",
+                "conditions": [
+                    {
+                        "$type": "HasEquipedSpecifiedWeaponType",
+                        "weaponType": "Stick"
+                    }
+                ],
+                "interactionAction": {
+                    "$type": "DestroyBlock"
+                }
+            }
+        ]
+    }
+]

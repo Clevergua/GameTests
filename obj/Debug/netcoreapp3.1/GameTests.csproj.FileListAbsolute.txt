@@ -1,0 +1,5 @@
+C:\Users\Cleve\Documents\GitHub\GameTests\obj\Debug\netcoreapp3.1\GameTests.csproj.AssemblyReference.cache
+C:\Users\Cleve\Documents\GitHub\GameTests\obj\Debug\netcoreapp3.1\GameTests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cleve\Documents\GitHub\GameTests\obj\Debug\netcoreapp3.1\GameTests.AssemblyInfoInputs.cache
+C:\Users\Cleve\Documents\GitHub\GameTests\obj\Debug\netcoreapp3.1\GameTests.AssemblyInfo.cs
+C:\Users\Cleve\Documents\GitHub\GameTests\obj\Debug\netcoreapp3.1\GameTests.csproj.CoreCompileInputs.cache
